@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 16px 24px;
+}
+
+.header > h3 {
+    margin-right: 400px;
+}
+
+.header>.menu {
+    display: flex;
+}
+
+.header>.menu>button {
+    background-color: white;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: 0.3s background-color ease-out;
+}
+
+.header>.menu>button:hover {
+    background-color: gainsboro;
+}
+
+.header>.menu>button:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.header>.menu>button:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.header>.logo {
+    width: auto;
+    height: 40px;
+}
+
+.main-content {
+    padding: 24px;
+}
+
+.facilitation {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+
+.gambarr>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.g {
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tomboll1 {
+    margin-top: 20px;
+    margin-left: 570px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.tomboll1:hover {
+    background-color: gray;
+    transition: 0.3s background-color ease-out;
+}
+
+.tomboll2 {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.tomboll2:hover {
+    background-color: gray;
+    transition: 0.3s background-color ease-out;
+}
+
+.fasilitas {
+    display: flex;
+    justify-content:left;
+    border-bottom: 2px solid black;
+
+}
+
+.masjid {
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.kantor {
+    margin-left: 60px;
+}
+
+.gerbang {
+    margin-left: 60px;
+}
+
+.asrama {
+    margin-left: 45px;
+}
+
+.depan {
+    margin-left: 45px;
+}
+
+.santri {
+    margin-left: 50px;
+}
+
+
+.message {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.kotakform1 {
+    border-radius: 5px;
+    border: none;
+    padding: 15px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.main-content .form {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+    
+}
+
+.img-slideshow {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 14px;
+    }
+
+    .gambar {
+        background-color: white;
+        padding: 8px 16px;
+        /* border: 1px solid gray; */
+        cursor: pointer;
+        transition: 0.3s background-color ease-out;
+    }
+
+    .tomboll1 {
+        margin-left: 120px;
+    }
+
+    input[type="text"] {
+        width: 250px;
+        background-color: tomato;
+    }
+}
+
+input[type="text"] {
+    border: none;
+    padding: 12px 15px;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input[type="date"] {
+    margin-left: 41px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 12px 15px;
+    width: 400px;
+    margin-top: 0px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+
+input[type="radio"] {
+    align-items:flex-end;
+    height: 15px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+textarea {
+    margin-left: 104px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 12px 15px;
+    width: 400px;
+    margin-top: 0px;
+    background-color: #eee;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input[type="submit"] {
+    border: 1px solid grey;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 12px 15px;
+    width: 400px;
+    margin-top: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid grey;
+    transition: 0.3s background-color ease-out;
+}
+
+input[type="submit"]:hover {
+    background-color: gainsboro;
+}
+
+
+.textarea {
+    display: flex;
+    align-items: center;
+}
+
+.main-content .form-output {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    border: border-box;
+    width: 600px;
+    height: 430px;
+    align-self: center;
+    
+    
+}
+
+.main-content .form-output > p {
+    padding: 10px;
+    justify-tracks: center;
+    
+}
+
+.main-content>h5 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
